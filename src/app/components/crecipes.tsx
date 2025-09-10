@@ -54,7 +54,7 @@ const categories: Category[] = [
     {
         title: "Apple Slices with Yoghurt",
         image: "/photos/dessert4.jpg",
-        ingredients: ["Vanilla Greek Yoghurt", "Green Apple Slices",],
+        ingredients: ["Vanilla greek yoghurt", "Green apple slices",],
         instructions: "Wash fruits before eating",
       },
     {
@@ -72,13 +72,19 @@ const categories: Category[] = [
       {
         title: "Noodles with eggs",
         image: "/photos/quick1.jpg",
-        ingredients: ["Shin Noodles", "2 boiled eggs"],
+        ingredients: ["Shin noodles", "2 boiled eggs"],
         instructions: "Follow the instructions on noodle packet. You can use any other noodles too.",
+      },
+      {
+        title: "Raw Fruits",
+        image: "/photos/quick5.jpg",
+        ingredients: ["Avocados", "Mangoes", "Grapes", "Bananas", "Oranges", "Apples", "Grapefruit"],
+        instructions: "Eat whatever is available",
       },
       {
         title: "Soft Cereal",
         image: "/photos/quick2.jpg",
-        ingredients: ["Powdered Milk", "Golden morn", "Bananas"],
+        ingredients: ["Powdered milk", "Golden morn", "Bananas"],
         instructions: "Use hot water to make the milk",
       },
     {
@@ -101,14 +107,14 @@ const categories: Category[] = [
       {
         title: "Green Beans with Shrimp",
         image: "/photos/stir1.jpg",
-        ingredients: ["Butter", "Seasoning", "Green Beans", "Shrimp"],
+        ingredients: ["Butter", "Seasoning", "Green beans", "Shrimp"],
         instructions: "Cook the beans and shrimp in butter",
       },
       {
-        title: "Fruit Tart",
-        image: "/photos/dessert2.jpg",
-        ingredients: ["Pastry", "Custard", "Assorted fruits"],
-        instructions: "Fill pastry with custard, top with fruits, chill, serve.",
+        title: "Buttered Broccoli and Fried Bell Peppers",
+        image: "/photos/Stir2.jpg",
+        ingredients: ["Onions", "Red bell peppers", "Green bell peppers", "Seasoning", "Butter", "Broccoli", "Olive oil"],
+        instructions: "Steam the broccolis first then cook them in butter, fries the bell peppers in oil with the onions and season them ",
       },
     ],
   },
@@ -118,14 +124,32 @@ const categories: Category[] = [
       {
         title: "Akunna sauce with egg sauce",
         image: "/photos/stew1.jpg",
-        ingredients: ["Tomatoes", "Bell peppers", "Red onions", "Scotch bonnet", "Boiled plantain (optional)", "Olive oil", "San Marcos chipotle sauce", "San Marcos chipotle sauce/salsa", "San Marcos chipotle peppers in adobe sauce", "Seasoning"],
-        instructions: "Chop the bell pepper and onions into long slices, chop the tomatoes and scotch bonnet into small chunks, fry the onions and tomatoes first for the sauce and eggs, fry the eggs without the San Marcos items",
+        ingredients: ["Tomatoes", "Bell peppers", "Onions", "Scotch bonnet", "Boiled plantain (optional)", "Olive oil", "San Marcos chipotle sauce/salsa", "San Marcos chipotle peppers in adobe sauce", "Seasoning"],
+        instructions: "Chop the bell pepper and onions into long slices, chop the tomatoes and scotch bonnet into small chunks, fry the onions and tomatoes first for the sauce and eggs, fry the eggs without the San Marcos stuff",
       },
       {
-        title: "Fruit Tart",
-        image: "/photos/dessert2.jpg",
-        ingredients: ["Pastry", "Custard", "Assorted fruits"],
-        instructions: "Fill pastry with custard, top with fruits, chill, serve.",
+        title: "Nigerian Fish Stew",
+        image: "/photos/rice5.jpg",
+        ingredients: ["Onions", "Bell peppers", "Tomatoes", "Seasoning", "San Marcos chipotle sauce/salsa", "Chopped fish", "San Marcos chipotle peppers in adobe sauce", "Scotch bonnet", "Olive oil"],
+        instructions: "Blend the bell peppers, tomatoes, scotch bonnet and the chipotle peppers in adobe sauce. Add the fish last",
+      },
+      {
+        title: "Nigerian Carrot Stew",
+        image: "/photos/stew2.jpg",
+        ingredients: ["Onions", "Bell peppers", "Carrots", "Tomatoes", "Seasoning", "San Marcos chipotle sauce/salsa", "Cow/goat meat", "San Marcos chipotle peppers in adobe sauce", "Scotch bonnet", "Olive oil"],
+        instructions: "Blend the bell peppers, carrots, tomatoes, scotch bonnet and the chipotle peppers in adobe sauce. Boil and seaon the meat and add it to the stew last",
+      },
+      {
+        title: "Palm Oil Sauce",
+        image: "/photos/stew3.jpg",
+        ingredients: ["Palm oil", "Chopped onions", "Crayfish", "Tomatoes", "Seasoning", "Pumpkin leaves/Spinach", "Cow/goat meat", "Scotch bonnet", "Olive oil"],
+        instructions: "Blend the tomatoes to cook them. Eat the sauce with boiled yam or plantain",
+      },
+      {
+        title: "Nigerian Stew with Eggs",
+        image: "/photos/stew4.jpg",
+        ingredients: ["Onions", "Eggs", "Bell peppers", "Tomatoes", "Seasoning", "San Marcos chipotle sauce/salsa", "San Marcos chipotle peppers in adobe sauce", "Scotch bonnet", "Olive oil"],
+        instructions: "Break eggs inside the stew. Eat the sauce with boiled yam, potatoes, or plantain",
       },
     ],
   },
@@ -152,14 +176,32 @@ const categories: Category[] = [
       {
         title: "Everything Rice",
         image: "/photos/rice6.jpg",
-        ingredients: ["Long grain white rice", "Chickpeas", "Black beans", "Pinto beans", "Green beans", "Shrimps", "Soy sauce", "Butter", "Seasoning", "Creamy sriracha", "Spinach", "Spring Mix", "Salmon", "Hot sauce", "Jalapenos", "Cucumbers"],
+        ingredients: ["Long grain white rice", "Chickpeas", "Black beans", "Pinto beans", "Green beans", "Shrimps", "Soy sauce", "Butter", "Seasoning", "Creamy sriracha", "Spinach", "Spring Mix", "Salmon", "Hot sauce", "Jalapenos", "Cucumbers",],
         instructions: "Mix chopped raw salmon with the creamy sriracha, heat up the pinto and black beans separately in a sauce pan, fry the grean beans and shrimps in a pan with butter, seasoning and a little soy sauce, sprinkle hot sauce on everything at the end",
       },
       {
-        title: "Fruit Tart",
-        image: "/photos/dessert2.jpg",
-        ingredients: ["Pastry", "Custard", "Assorted fruits"],
-        instructions: "Fill pastry with custard, top with fruits, chill, serve.",
+        title: "White Rice and Nigerian Stew with Chicken",
+        image: "/photos/rice1.jpg",
+        ingredients: ["Long grain white rice", "Onions", "Bell peppers", "Long grain white rice", "Tomatoes", "Seasoning", "San Marcos chipotle sauce/salsa", "Chicken thighs/wings", "San Marcos chipotle peppers in adobe sauce", "Olive oil", "Scotch bonnet",],
+        instructions: "Blend the bell peppers, tomatoes, scotch bonnet and the chipotle peppers in adobe sauce. Boil the chicken with seasoning, deep fry it, then put it in the stew.",
+      },
+      {
+        title: "Jamaican Rice and Peas",
+        image: "/photos/rice2.jpg",
+        ingredients: ["Canned idney beans", "Canned coconut milk", "Long grain white rice"],
+        instructions: "Cook the kidney beans first, add coconut milk, then added the washed rice and cook low heat. Add more coconut milk if the rice is still hard after the milk has soaked up",
+      },
+      {
+        title: "Nigerian Jollof Rice",
+        image: "/photos/rice3.jpg",
+        ingredients: ["Onions", "Bell peppers", "Long grain white rice", "Tomatoes", "Seasoning", "San Marcos chipotle sauce/salsa", "San Marcos chipotle peppers in adobe sauce", "Scotch bonnet"],
+        instructions: "Cook the stew first, Add water, then added the washed rice and cook low heat. Add more water if the rice is still hard after the water has soaked up",
+      },
+      {
+        title: "Chipotle Mexican Grill Bowl",
+        image: "/photos/rice4.jpg",
+        ingredients: ["Black beans", "Pinto beans", "Long grain white rice", "Guacamole", "Seasoning", "San Marcos chipotle sauce/salsa", "San Marcos chipotle peppers in adobe sauce", "Mozzarella shredded cheese", "Sweet corn", "Pico de gallo", "Chicken breast", "Onions", "Lettuce", "Olive oil"],
+        instructions: "Fry the chopped chicken breast in the chipotle sauce with olive oil, chipotle peppers in adobe sauce, seasoning, and sliced onions",
       },
     ],
   },
@@ -184,10 +226,10 @@ const categories: Category[] = [
     title: "Sandwiches",
     recipes: [
       {
-        title: "Spaghetti Bolognese",
-        image: "/photos/pasta1.jpg",
-        ingredients: ["Spaghetti", "Ground beef", "Tomato sauce", "Onion", "Garlic"],
-        instructions: "Cook pasta, sauté beef with onion and garlic, add sauce, combine with pasta.",
+        title: "Sardine Egg Sandwich with Mayo",
+        image: "/photos/sand1.jpg",
+        ingredients: ["Sliced bread", "Boiled eggs", "Sardine", "Mayo",],
+        instructions: "Toasting the bread is optional, mixed mayo in the crushes boiled eggs and the sardine",
       },
       {
         title: "Pesto Penne",
@@ -235,10 +277,10 @@ const categories: Category[] = [
     title: "Meat Dishes",
     recipes: [
       {
-        title: "Spaghetti Bolognese",
-        image: "/photos/pasta1.jpg",
-        ingredients: ["Spaghetti", "Ground beef", "Tomato sauce", "Onion", "Garlic"],
-        instructions: "Cook pasta, sauté beef with onion and garlic, add sauce, combine with pasta.",
+        title: "Barbeque Wings",
+        image: "/photos/meat1.jpg",
+        ingredients: ["Barbeque sauce", "Chicken wings/thighs", "Olive oil", "Seasoning",],
+        instructions: "Boil the chicken with seasoning, deep fry it, dip it in the seasoned BBQ sauce, then put it in the oven",
       },
       {
         title: "Pesto Penne",
@@ -255,13 +297,13 @@ const categories: Category[] = [
         title: "Waffle looking Pancakes",
         image: "/photos/mis1.jpg",
         ingredients: ["Powdered milk", "Flour", "Eggs", "Sugar"],
-        instructions: "You can use the above ingredients or pancake mix. Make sure the mix is not too watery and cook it in a waffle oven.",
+        instructions: "You can use the above ingredients or pancake mix. Make sure the mix is not too watery and cook it in a waffle oven",
       },
       {
         title: "Burger with Fries",
         image: "/photos/mis2.jpg",
-        ingredients: ["Pastry", "Custard", "Assorted fruits"],
-        instructions: "Fill pastry with custard, top with fruits, chill, serve.",
+        ingredients: ["Fries", "Burger buns", "Beef patty", "Lettuce", "Onions", "Tomatoes", "A1 sauce", "Mayo"],
+        instructions: "Cook the patty in ovem, brush the A1 sauce on it while cooking and after, and grill the onions/ You can replace the A1 sauce with BBQ sauce",
       },
     ],
   },
@@ -291,7 +333,7 @@ function CategorySlider({ category }: { category: Category }) {
 
   return (
     <div className="relative">
-      <h2 className="text-xl md:text-2xl font-bold mb-4 text-white">{category.title}</h2>
+      <p className="text-xl md:text-2xl font-bold mb-4 text-white">{category.title}</p>
 
       <button
         onClick={() => scroll("left")}
@@ -320,10 +362,10 @@ function CategorySlider({ category }: { category: Category }) {
             </div>
             <div className="p-4">
               <h3 className="text-lg font-bold text-red-500 mb-2">{recipe.title}</h3>
-              <p className="text-white text-sm mb-2">
+              <p className="text-gray-300 text-sm mb-2">
                 <span className="font-bold">Ingredients:</span> {recipe.ingredients.join(", ")}
               </p>
-              <p className="text-white text-sm">
+              <p className="text-gray-300 text-sm">
                 <span className="font-bold">Instructions:</span> {recipe.instructions}
               </p>
             </div>
