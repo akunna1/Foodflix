@@ -7,10 +7,10 @@ export default function Welcome() {
     <section className="relative h-[80vh] flex items-center justify-center overflow-hidden bg-[#141414]">
       <div className="relative z-10 max-w-2xl text-center px-4">
         <p className="text-4xl md:text-5xl font-extrabold text-white mb-4">
-          Dine with <span className="text-red-600">Akunna</span>
+          Dish with <span className="text-red-600">Akunna</span>
         </p>
 
-        <p className="mt-4 text-base md:text-lg text-gray-300">
+        <p className="mt-4 text-base md:text-lg text-white">
           Discover my personal meal plans and recipes 🍴 blending{" "}
           <span className="text-red-400">American</span>,{" "}
           <span className="text-red-400">Jamaican</span>,{" "}

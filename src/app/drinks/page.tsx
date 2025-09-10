@@ -2,13 +2,13 @@
 
 import React from "react";
 import Navbar from "../components/navbar";
-import Cabout from "../components/cabout";
+import Cdrinks from "../components/cdrinks";
 import Footer from "../components/footer";
 
 const Drinks = () => (
   <div>
     < Navbar />
-    < Cabout />
+    < Cdrinks />
     < Footer />
   </div>
 );
