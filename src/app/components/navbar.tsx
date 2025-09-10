@@ -10,9 +10,11 @@ export default function Navbar() {
 
   return (
     <nav className="flex items-center justify-between px-6 py-4 bg-[#141414]/90 fixed w-full z-50">
-      <h1 className="text-4xl font-bold text-red-600 uppercase hover:scale-105">
+      <p className="text-4xl font-bold text-red-600 uppercase hover:scale-105">
+        <Link href="/">
         Foodflix
-      </h1>
+        </Link>
+      </p>
       <div className="hidden md:flex gap-6 text-base font-medium">
         <Link href="/about" className="text-white hover:text-red-500 transition">
           About
