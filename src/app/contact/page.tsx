@@ -2,13 +2,13 @@
 
 import React from "react";
 import Navbar from "../components/navbar";
-import Cabout from "../components/cabout";
+import Ccontact from "../components/ccontact";
 import Footer from "../components/footer";
 
 const Contact = () => (
   <div>
     < Navbar />
-    < Cabout />
+    < Ccontact />
     < Footer />
   </div>
 );
