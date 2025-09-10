@@ -22,16 +22,16 @@ const categories: Category[] = [
     title: "Desserts",
     recipes: [
       {
-        title: "Chocolate Cake",
+        title: "Yoghurt with Fruits",
         image: "/photos/dessert1.jpg",
-        ingredients: ["Flour", "Cocoa powder", "Eggs", "Sugar", "Butter"],
-        instructions: "Mix ingredients, bake at 350°F for 30 min, let cool, serve.",
+        ingredients: ["Strawberries", "Coconut flakes", "Chia seeds", "Blueberries", "Kiwis", "Medjool dates", "Vanilla greek yoghurt"],
+        instructions: "Add yoghurt first then the toppings",
       },
       {
-        title: "Fruit Tart",
-        image: "/photos/dessert2.jpg",
-        ingredients: ["Pastry", "Custard", "Assorted fruits"],
-        instructions: "Fill pastry with custard, top with fruits, chill, serve.",
+        title: "Cocoa Banana Oat Cake",
+        image: "/photos/dessert6.jpg",
+        ingredients: ["2 eggs", "2 bananas", "12 tbsp oat flour", "3 tbsp plain 2% fat yoghurt", "2 tbsp peanut butter", "1.5 tbsp honey", "6 tbsp sugar", "4 tbsp cocoa powder", "1/4 cup almond milk (unsweetened)", "Pinch of salt", "4 tbsp granola"],
+        instructions: "Make sure it is not too watery",
       },
     ],
   },
@@ -39,10 +39,10 @@ const categories: Category[] = [
     title: "Quick Meals",
     recipes: [
       {
-        title: "Chocolate Cake",
-        image: "/photos/dessert1.jpg",
-        ingredients: ["Flour", "Cocoa powder", "Eggs", "Sugar", "Butter"],
-        instructions: "Mix ingredients, bake at 350°F for 30 min, let cool, serve.",
+        title: "Noodles with eggs",
+        image: "/photos/quick1.jpg",
+        ingredients: ["Shin Noodles", "2 boiled eggs"],
+        instructions: "Follow the instructions on noodle packet. You can use any other noodles too.",
       },
       {
         title: "Fruit Tart",
@@ -73,10 +73,10 @@ const categories: Category[] = [
     title: "Stews/Sauces",
     recipes: [
       {
-        title: "Chocolate Cake",
-        image: "/photos/dessert1.jpg",
-        ingredients: ["Flour", "Cocoa powder", "Eggs", "Sugar", "Butter"],
-        instructions: "Mix ingredients, bake at 350°F for 30 min, let cool, serve.",
+        title: "Akunna sauce with egg sauce",
+        image: "/photos/stew1.jpg",
+        ingredients: ["Tomatoes", "Bell peppers", "Red onions", "Scotch bonnet", "Boiled plantain (optional)", "Olive oil", "San Marcos chipotle sauce", "San Marcos chipotle sauce/salsa", "San Marcos chipotle peppers in adobe sauce", "Seasoning"],
+        instructions: "Chop the bell pepper and onions into long slices, chop the tomatoes and scotch bonnet into small chunks, fry the onions and tomatoes first for the sauce and eggs, fry the eggs without the San Marcos items",
       },
       {
         title: "Fruit Tart",
@@ -90,10 +90,10 @@ const categories: Category[] = [
     title: "Salads",
     recipes: [
       {
-        title: "Chocolate Cake",
-        image: "/photos/dessert1.jpg",
-        ingredients: ["Flour", "Cocoa powder", "Eggs", "Sugar", "Butter"],
-        instructions: "Mix ingredients, bake at 350°F for 30 min, let cool, serve.",
+        title: "Mediterranean Chickpea & Bean Salad",
+        image: "/photos/salad5.jpg",
+        ingredients: ["Chickpeas", "Feta cheese", "Spring mix", "Pinto beans", "Balsamic vinaigrette"],
+        instructions: "Don't overdo it on the dressing",
       },
       {
         title: "Fruit Tart",
@@ -107,10 +107,10 @@ const categories: Category[] = [
     title: "Rice Dishes",
     recipes: [
       {
-        title: "Chocolate Cake",
-        image: "/photos/dessert1.jpg",
-        ingredients: ["Flour", "Cocoa powder", "Eggs", "Sugar", "Butter"],
-        instructions: "Mix ingredients, bake at 350°F for 30 min, let cool, serve.",
+        title: "Everything Rice",
+        image: "/photos/rice6.jpg",
+        ingredients: ["Long grain white rice", "Chickpeas", "Black beans", "Pinto beans", "Green beans", "Shrimps", "Soy sauce", "Butter", "Seasoning", "Creamy sriracha", "Spinach", "Spring Mix", "Salmon", "Hot sauce", "Jalapenos", "Cucumbers"],
+        instructions: "Mix chopped raw salmon with the creamy sriracha, heat up the pinto and black beans separately in a sauce pan, fry the grean beans and shrimps in a pan with butter, seasoning and a little soy sauce, sprinkle hot sauce on everything at the end",
       },
       {
         title: "Fruit Tart",
@@ -172,7 +172,7 @@ const categories: Category[] = [
     ],
   },
     {
-    title: "Soups",
+    title: "Sides",
     recipes: [
       {
         title: "Spaghetti Bolognese",
@@ -209,10 +209,10 @@ const categories: Category[] = [
     title: "Miscellaneous",
     recipes: [
       {
-        title: "Chocolate Cake",
-        image: "/photos/dessert1.jpg",
-        ingredients: ["Flour", "Cocoa powder", "Eggs", "Sugar", "Butter"],
-        instructions: "Mix ingredients, bake at 350°F for 30 min, let cool, serve.",
+        title: "Waffle looking Pancakes",
+        image: "/photos/mis1.jpg",
+        ingredients: ["Powdered milk", "Flour", "Eggs", "Sugar"],
+        instructions: "You can use the above ingredients or pancake mix. Make sure the mix is not too watery and cook it in a waffle oven.",
       },
       {
         title: "Something",
@@ -272,16 +272,16 @@ function CategorySlider({ category }: { category: Category }) {
             key={idx}
             className="flex-shrink-0 w-64 md:w-72 rounded-lg overflow-hidden bg-[#1e1e1e] transform transition duration-300 hover:scale-105 hover:brightness-90 cursor-pointer"
           >
-            <div className="relative w-full h-40 md:h-48">
+            <div className="relative w-full h-48 md:h-56">
               <Image src={recipe.image} alt={recipe.title} fill className="object-cover" />
             </div>
             <div className="p-4">
               <h3 className="text-lg font-bold text-red-500 mb-2">{recipe.title}</h3>
-              <p className="text-gray-300 text-sm mb-1">
-                <span className="font-semibold">Ingredients:</span> {recipe.ingredients.join(", ")}
+              <p className="text-white text-sm mb-2">
+                <span className="font-bold">Ingredients:</span> {recipe.ingredients.join(", ")}
               </p>
-              <p className="text-gray-300 text-sm">
-                <span className="font-semibold">Instructions:</span> {recipe.instructions}
+              <p className="text-white text-sm">
+                <span className="font-bold">Instructions:</span> {recipe.instructions}
               </p>
             </div>
           </div>
