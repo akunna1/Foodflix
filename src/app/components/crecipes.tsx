@@ -33,6 +33,37 @@ const categories: Category[] = [
         ingredients: ["2 eggs", "2 bananas", "12 tbsp oat flour", "3 tbsp plain 2% fat yoghurt", "2 tbsp peanut butter", "1.5 tbsp honey", "6 tbsp sugar", "4 tbsp cocoa powder", "1/4 cup almond milk (unsweetened)", "Pinch of salt", "4 tbsp granola"],
         instructions: "Make sure it is not too watery",
       },
+    {
+        title: "Overnight Oats",
+        image: "/photos/dessert2.jpg",
+        ingredients: ["Oats", "Bananas", "Strawberries (or other berries)", "Honey", "Protein powder", "Chai seeds", "Milk (goat, cow or almond)", "Fruit powder (optional)", "Granola/Almonds (optional)"],
+        instructions: "Leave in fridge overnight",
+      },
+    {
+        title: "Acai Bowl",
+        image: "/photos/dessert3.jpg",
+        ingredients: ["Medjool dates", "Almond butter", "Spinach", "Unsweetened coconut flakes", "Bananas", "Strawberries", "Blueberries", "Vanilla greek yoghurt", "Chai sees", "Kiwi slices"],
+        instructions: "The dates and kiwis do not have to be frozen",
+      },  
+    {
+        title: "Berry Bowl",
+        image: "/photos/dessert7.jpg",
+        ingredients: ["Raspberries", "Raisins", "Blueberries", "Strawberries", "Vanilla greek yoghurt",],
+        instructions: "Wash fruits before eating",
+      },
+    {
+        title: "Apple Slices with Yoghurt",
+        image: "/photos/dessert4.jpg",
+        ingredients: ["Vanilla Greek Yoghurt", "Green Apple Slices",],
+        instructions: "Wash fruits before eating",
+      },
+    {
+        title: "Loaded Fiber Bowl",
+        image: "/photos/dessert5.jpg",
+        ingredients: ["Chopped almonds", "Chai seeds", "Granola", "Coconut flakes", "Vanilla greek yoghurt", "Raisins/cranberries", "Honey"],
+        instructions: "Do not overdo it on the crunchy stuff",
+      },
+              
     ],
   },
     {
@@ -45,10 +76,16 @@ const categories: Category[] = [
         instructions: "Follow the instructions on noodle packet. You can use any other noodles too.",
       },
       {
-        title: "Fruit Tart",
-        image: "/photos/dessert2.jpg",
-        ingredients: ["Pastry", "Custard", "Assorted fruits"],
-        instructions: "Fill pastry with custard, top with fruits, chill, serve.",
+        title: "Soft Cereal",
+        image: "/photos/quick2.jpg",
+        ingredients: ["Powdered Milk", "Golden morn", "Bananas"],
+        instructions: "Use hot water to make the milk",
+      },
+    {
+        title: "Ughh I Don't Feel Like Cooking",
+        image: "/photos/quick3.jpg",
+        ingredients: ["Medjool dates", "Avocado", "A sandwich", "Tea"],
+        instructions: "Scroll down to get some sandwich ideas",
       },
     ],
   },
@@ -56,10 +93,10 @@ const categories: Category[] = [
     title: "Stir Fries",
     recipes: [
       {
-        title: "Chocolate Cake",
-        image: "/photos/dessert1.jpg",
-        ingredients: ["Flour", "Cocoa powder", "Eggs", "Sugar", "Butter"],
-        instructions: "Mix ingredients, bake at 350°F for 30 min, let cool, serve.",
+        title: "Green Beans with Shrimp",
+        image: "/photos/stir1.jpg",
+        ingredients: ["Butter", "Seasoning", "Green Beans", "Shrimp"],
+        instructions: "Cook the beans and shrimp in butter",
       },
       {
         title: "Fruit Tart",
@@ -92,7 +129,7 @@ const categories: Category[] = [
       {
         title: "Mediterranean Chickpea & Bean Salad",
         image: "/photos/salad5.jpg",
-        ingredients: ["Chickpeas", "Feta cheese", "Spring mix", "Pinto beans", "Balsamic vinaigrette"],
+        ingredients: ["Chickpeas", "Feta cheese", "Spring mix", "Pinto beans", "Balsamic vinaigrette", "Cherry tomatoes"],
         instructions: "Don't overdo it on the dressing",
       },
       {
@@ -215,8 +252,8 @@ const categories: Category[] = [
         instructions: "You can use the above ingredients or pancake mix. Make sure the mix is not too watery and cook it in a waffle oven.",
       },
       {
-        title: "Something",
-        image: "/photos/dessert2.jpg",
+        title: "Burger with Fries",
+        image: "/photos/mis2.jpg",
         ingredients: ["Pastry", "Custard", "Assorted fruits"],
         instructions: "Fill pastry with custard, top with fruits, chill, serve.",
       },
