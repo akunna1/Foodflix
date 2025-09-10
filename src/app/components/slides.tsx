@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { useRef } from "react";
 
@@ -57,12 +58,13 @@ function FoodRow({ title, images }: { title: string; images: string[] }) {
         className="flex gap-3 overflow-x-hidden overflow-y-hidden scrollbar-hide"
       >
         {images.map((src, i) => (
-          <div
+          <Link
             key={i}
+            href="/recipes"
             className="relative flex-shrink-0 w-60 md:w-64 h-40 md:h-56 rounded-md overflow-hidden transform transition duration-300 hover:scale-105 hover:brightness-90 cursor-pointer opacity-60"
           >
             <Image src={src} alt={title} fill className="object-cover" />
-          </div>
+          </Link>
         ))}
       </div>
     </div>

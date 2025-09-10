@@ -19,7 +19,7 @@ const Cabout = () => {
         </p>
 
         <p className="text-lg md:text-xl">
-          On this app, you’ll find pictures of meals I’ve made and enjoyed, recipes I’ve experimented with, 
+          On this app, you’ll find pictures of meals I’ve made and enjoyed in addition to a few drinks, recipes I’ve experimented with, 
           and my creative twists in the kitchen. It’s all about exploring flavors, trying new combinations, and 
           making cooking fun.
         </p>
