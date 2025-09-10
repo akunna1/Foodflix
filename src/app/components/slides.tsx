@@ -5,10 +5,10 @@ import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { useRef } from "react";
 
 const categories = [
-  { title: "Quick Meals", images: ["/food1.jpg", "/food2.jpg", "/food3.jpg", "/food4.jpg", "/food5.jpg"] },
-  { title: "Rice Dishes", images: ["/rice1.jpg", "/rice2.jpg", "/rice3.jpg", "/rice4.jpg", "/rice5.jpg"] },
-  { title: "Stews & Sauces", images: ["/stew1.jpg", "/stew2.jpg", "/stew3.jpg", "/stew4.jpg", "/stew5.jpg"] },
-  { title: "Desserts", images: ["/dessert1.jpg", "/dessert2.jpg", "/dessert3.jpg", "/dessert4.jpg", "/dessert5.jpg"] },
+  { title: "Desserts", images: ["/photos/dessert1.jpg", "/photos/dessert2.jpg", "/photos/dessert3.jpg", "/photos/dessert4.jpg", "/photos/dessert5.jpg"] },
+  { title: "Pasta Dishes", images: ["/photos/pasta1.jpg", "/photos/pasta2.jpg", "/photos/pasta3.jpg", "/photos/pasta4.jpg", "/photos/pasta5.jpg"] },
+  { title: "Rice Dishes", images: ["/photos/rice1.jpg", "/photos/rice2.jpg", "/photos/rice3.jpg", "/photos/rice4.jpg", "/photos/rice5.jpg"] },
+  { title: "Salads", images: ["/photos/salad1.jpg", "/photos/salad2.jpg", "/photos/salad5.jpg", "/photos/salad4.jpg", "/photos/salad3.jpg"] },
 ];
 
 export default function Slides() {
@@ -54,12 +54,12 @@ function FoodRow({ title, images }: { title: string; images: string[] }) {
 
       <div
         ref={rowRef}
-        className="flex gap-4 overflow-x-hidden overflow-y-hidden scrollbar-hide"
+        className="flex gap-3 overflow-x-hidden overflow-y-hidden scrollbar-hide"
       >
         {images.map((src, i) => (
           <div
             key={i}
-            className="relative flex-shrink-0 w-60 md:w-64 h-40 md:h-56 rounded-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:brightness-90 cursor-pointer"
+            className="relative flex-shrink-0 w-60 md:w-64 h-40 md:h-56 rounded-md overflow-hidden transform transition duration-300 hover:scale-105 hover:brightness-90 cursor-pointer"
           >
             <Image src={src} alt={title} fill className="object-cover" />
           </div>
