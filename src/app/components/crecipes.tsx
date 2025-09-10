@@ -84,8 +84,14 @@ const categories: Category[] = [
     {
         title: "Ughh I Don't Feel Like Cooking",
         image: "/photos/quick3.jpg",
-        ingredients: ["Medjool dates", "Avocado", "A sandwich", "Tea"],
+        ingredients: ["Medjool dates", "Avocado", "A sandwich (optional)", "Tea"],
         instructions: "Scroll down to get some sandwich ideas",
+      },
+      {
+        title: "Agege Bread with Tea",
+        image: "/photos/quick4.jpg",
+        ingredients: ["Agege bread", "Blue band butter (optional)", "Hot tea",],
+        instructions: "Sit down and chop, the storm go pass...",
       },
     ],
   },
