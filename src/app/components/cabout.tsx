@@ -57,7 +57,7 @@ const Cabout = () => {
 
       <div className="mt-12">
         <Link href="/recipes">
-          <button className="px-6 py-3 bg-red-600 rounded-lg font-semibold hover:bg-red-700 hover:scale-105 transition-transform duration-300 text-black">
+          <button className="px-6 py-3 mt-3 bg-red-600 rounded-lg font-bold hover:bg-red-700 hover:scale-105 hover:shadow-2xl transition-transform duration-300 flex items-center justify-center mx-auto text-white">
             Explore Recipes
           </button>
         </Link>

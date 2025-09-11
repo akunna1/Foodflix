@@ -212,7 +212,7 @@ const categories: Category[] = [
       {
         title: "Jamaican Rice and Peas",
         image: "/photos/rice2.jpg",
-        ingredients: ["Canned idney beans", "Canned coconut milk", "Long grain white rice"],
+        ingredients: ["Canned kidney beans", "Canned coconut milk", "Long grain white rice"],
         instructions: "Cook the kidney beans first, add coconut milk, then added the washed rice and cook low heat. Add more coconut milk if the rice is still hard after the milk has soaked up",
       },
       {
