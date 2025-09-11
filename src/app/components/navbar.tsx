@@ -9,7 +9,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between px-6 py-4 bg-[#141414]/90 fixed w-full z-50 shadow-lg">
+    <nav className="flex items-center justify-between px-6 py-4 bg-[#141414]/90 fixed w-full z-50 shadow-lg shadow-black">
       <p className="text-4xl font-bold text-red-600 uppercase hover:scale-105">
         <Link href="/">
         Foodflix

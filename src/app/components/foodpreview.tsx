@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function FoodPreview() {
   return (
     <section className="w-full px-8 py-12 flex flex-col items-center text-center bg-[#141414] text-white">
-      <h2 className="text-4xl md:text-5xl font-extrabold mb-4">
+      <h2 className="text-4xl md:text-5xl font-extrabold mb-4 mt-10">
         🍕 Here's a sneak peek of some delicious food!
       </h2>
       <p className="text-lg md:text-xl text-gray-300 mb-8">

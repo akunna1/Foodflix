@@ -5,7 +5,7 @@ import { FiChevronRight } from "react-icons/fi";
 export default function Welcome() {
   return (
     <section className="relative h-[75dvh] flex items-center justify-center overflow-hidden bg-[#141414]">
-      <div className="shadow-lg shadow-black rounded-lg p-15 mt-15 mx-5">
+      <div className="shadow-lg shadow-black rounded-lg p-15 mt-20 mx-5">
       <div className="relative z-10 max-w-2xl text-center px-4">
         <p className="text-4xl md:text-5xl font-extrabold text-white mb-4">
           Dine with <span className="text-red-600">Akunna</span>
