@@ -59,7 +59,7 @@ function FoodRow({ title, images }: { title: string; images: string[] }) {
         {images.map((src, i) => (
           <div
             key={i}
-            className="relative flex-shrink-0 w-60 md:w-64 h-40 md:h-56 shadow-lg rounded-md overflow-hidden transform transition duration-300 hover:scale-105 hover:brightness-90 cursor-pointer opacity-80"
+            className="relative flex-shrink-0 w-40 md:w-60 h-40 md:h-56 rounded-md shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:brightness-90 cursor-pointer opacity-80"
           >
             <Image src={src} alt={title} fill className="object-cover" />
           </div>

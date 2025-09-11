@@ -87,7 +87,7 @@ const categories: Category[] = [
         instructions: "Use hot water to make the milk",
       },
     {
-        title: "Ughh I Don't Feel Like Cooking",
+        title: "Avocado and Dates",
         image: "/photos/quick3.jpg",
         ingredients: ["Medjool dates", "Avocado", "A sandwich (optional)", "Tea"],
         instructions: "Scroll down to get some sandwich ideas",
@@ -96,7 +96,7 @@ const categories: Category[] = [
         title: "Agege Bread with Tea",
         image: "/photos/quick4.jpg",
         ingredients: ["Agege bread", "Blue band butter (optional)", "Hot tea",],
-        instructions: "Sit down and chop, the storm go pass...",
+        instructions: "Sit down and chop, the storm shall pass...",
       },
     ],
   },
@@ -238,10 +238,10 @@ const categories: Category[] = [
         instructions: "Melt butter in a pot and sauté the onion until soft. Blend some of the boiled potatoes for creaminess, then add them back with the sautéed onion, the rest of the potatoes, sweet corn, shredded chicken, seasoning, and milk. Simmer gently and finish with fresh lettuce basil",
       },
       {
-        title: "Fruit Tart",
-        image: "/photos/dessert2.jpg",
-        ingredients: ["Pastry", "Custard", "Assorted fruits"],
-        instructions: "Fill pastry with custard, top with fruits, chill, serve.",
+        title: "Tomato Basil Soup",
+        image: "/photos/soup2.jpg",
+        ingredients: ["Ripe tomatoes", "Onion", "Garlic", "Fresh basil leaves", "Olive oil or butter", "Vegetable broth", "Salt", "Black pepper", "Optional: Heavy cream or sugar"],
+        instructions: "Sauté onion and garlic in olive oil until soft, then add chopped tomatoes and cook until they break down. Pour in broth, season with salt and pepper, and simmer until flavors blend. Blend until smooth, stir in fresh basil, and finish with cream if desired. Eat with grilled cheese sandwich"
       },
     ],
   },
@@ -367,7 +367,7 @@ const categories: Category[] = [
       {
         title: "Waffle looking Pancakes",
         image: "/photos/mis1.jpg",
-        ingredients: ["Powdered milk", "Flour", "Eggs", "Sugar"],
+        ingredients: ["Powdered milk", "Flour", "Eggs", "Sugar", "Water"],
         instructions: "You can use the above ingredients or pancake mix. Make sure the mix is not too watery and cook it in a waffle oven",
       },
       {
@@ -430,7 +430,7 @@ function CategorySlider({ category }: { category: Category }) {
         {category.recipes.map((recipe, idx) => (
           <div
             key={idx}
-            className="flex-shrink-0 w-64 md:w-72 rounded-lg overflow-hidden bg-[#1e1e1e] transform transition duration-300 hover:scale-105 hover:brightness-90 cursor-pointer"
+            className="flex-shrink-0 w-60 md:w-70 rounded-lg shadow-lg overflow-hidden bg-[#1e1e1e] transform transition duration-300 hover:scale-105 hover:brightness-90 cursor-pointer"
           >
             <div className="relative w-full h-48 md:h-56">
               <Image src={recipe.image} alt={recipe.title} fill className="object-cover" />
