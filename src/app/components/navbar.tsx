@@ -51,7 +51,7 @@ export default function Navbar() {
 
   {/* Dropdown menu */}
   {isOpen && (
-<div className="absolute top-5 left-[-50] bg-[#141414]/95 rounded-lg shadow-lg shadow-black p-4 flex flex-col gap-4 w-40 text-base font-medium">
+<div className="absolute top-5 left-[-50] bg-[#141414]/95 rounded-lg shadow-lg shadow-black p-8 flex flex-col gap-4 w-40 text-base font-medium">
       <Link
         href="/about"
         className="text-white hover:text-red-500 focus:text-red-500 active:text-red-500 transition-colors cursor-pointer"
