@@ -9,7 +9,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between px-6 py-4 bg-[#141414]/90 fixed w-full z-50">
+    <nav className="flex items-center justify-between px-6 py-4 bg-[#141414]/90 fixed w-full z-50 shadow-lg">
       <p className="text-4xl font-bold text-red-600 uppercase hover:scale-105">
         <Link href="/">
         Foodflix
@@ -51,31 +51,31 @@ export default function Navbar() {
 
   {/* Dropdown menu */}
   {isOpen && (
-    <div className="absolute top-5 right-[-60] bg-[#141414]/95 rounded-lg shadow-lg p-4 flex flex-col gap-4 w-40">
+<div className="absolute top-5 left-[-50] bg-[#141414]/95 rounded-lg shadow-lg p-4 flex flex-col gap-4 w-30 text-base font-medium">
       <Link
         href="/about"
-        className="text-white hover:text-red-500 transition"
+        className="text-white hover:text-red-500 focus:text-red-500 active:text-red-500 transition-colors cursor-pointer"
         onClick={() => setIsOpen(false)}
       >
         About
       </Link>
       <Link
         href="/recipes"
-        className="text-white hover:text-red-500 transition"
+        className="text-white hover:text-red-500 focus:text-red-500 active:text-red-500 transition-colors cursor-pointer"
         onClick={() => setIsOpen(false)}
       >
         Recipes
       </Link>
       <Link
         href="/drinks"
-        className="text-white hover:text-red-500 transition"
+        className="text-white hover:text-red-500 focus:text-red-500 active:text-red-500 transition-colors cursor-pointer"
         onClick={() => setIsOpen(false)}
       >
         Drinks
       </Link>
       <Link
         href="/contact"
-        className="text-white hover:text-red-500 transition"
+        className="text-white hover:text-red-500 focus:text-red-500 active:text-red-500 transition-colors cursor-pointer"
         onClick={() => setIsOpen(false)}
       >
         Contact
