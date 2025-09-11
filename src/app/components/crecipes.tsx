@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { useRef } from "react";
 
 type Recipe = {
@@ -16,7 +15,7 @@ type Category = {
   recipes: Recipe[];
 };
 
-// Data — replace or expand as needed
+// Data (unchanged)
 const categories: Category[] = [
       {
     title: "Desserts",
@@ -381,6 +380,7 @@ const categories: Category[] = [
   },
 ];
 
+
 export default function Crecipes() {
   return (
     <section className="space-y-16 px-6 py-16 bg-[#141414]">
@@ -394,35 +394,38 @@ export default function Crecipes() {
 function CategorySlider({ category }: { category: Category }) {
   const rowRef = useRef<HTMLDivElement>(null);
 
-  const scroll = (direction: "left" | "right") => {
-    if (!rowRef.current) return;
-    const container = rowRef.current;
-    container.scrollBy({
-      left: direction === "left" ? -container.clientWidth : container.clientWidth,
-      behavior: "smooth",
-    });
+  // Drag-to-scroll variables
+  let isDown = false;
+  let startX: number;
+  let scrollLeft: number;
+
+  const onMouseDown = (e: React.MouseEvent<HTMLDivElement>) => {
+    isDown = true;
+    startX = e.pageX - (rowRef.current?.offsetLeft || 0);
+    scrollLeft = rowRef.current?.scrollLeft || 0;
+  };
+
+  const onMouseLeave = () => { isDown = false; };
+  const onMouseUp = () => { isDown = false; };
+  const onMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (!isDown || !rowRef.current) return;
+    e.preventDefault();
+    const x = e.pageX - rowRef.current.offsetLeft;
+    const walk = (x - startX) * 2; // scroll-fast
+    rowRef.current.scrollLeft = scrollLeft - walk;
   };
 
   return (
     <div className="relative">
       <p className="text-xl md:text-2xl font-bold mb-4 text-white">{category.title}</p>
 
-      <button
-        onClick={() => scroll("left")}
-        className="absolute left-0 top-1/2 -translate-y-1/2 z-10 p-2 bg-[#141414]/70 rounded-full hover:bg-[#141414]/90 transition"
-      >
-        <FiChevronLeft className="h-6 w-6 text-white" />
-      </button>
-      <button
-        onClick={() => scroll("right")}
-        className="absolute right-0 top-1/2 -translate-y-1/2 z-10 p-2 bg-[#141414]/70 rounded-full hover:bg-[#141414]/90 transition"
-      >
-        <FiChevronRight className="h-6 w-6 text-white" />
-      </button>
-
       <div
         ref={rowRef}
-        className="flex gap-4 overflow-x-hidden overflow-y-hidden scrollbar-hide"
+        className="flex gap-4 overflow-x-scroll scrollbar-hide cursor-grab"
+        onMouseDown={onMouseDown}
+        onMouseLeave={onMouseLeave}
+        onMouseUp={onMouseUp}
+        onMouseMove={onMouseMove}
       >
         {category.recipes.map((recipe, idx) => (
           <div

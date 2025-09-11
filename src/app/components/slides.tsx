@@ -1,8 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
-import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { useRef } from "react";
 
 const categories = [
@@ -25,46 +23,46 @@ export default function Slides() {
 function FoodRow({ title, images }: { title: string; images: string[] }) {
   const rowRef = useRef<HTMLDivElement>(null);
 
-  const scroll = (direction: "left" | "right") => {
-    if (!rowRef.current) return;
-    const container = rowRef.current;
-    const scrollAmount = container.clientWidth;
+  // Horizontal drag
+  let isDown = false;
+  let startX: number;
+  let scrollLeft: number;
 
-    container.scrollBy({
-      left: direction === "left" ? -scrollAmount : scrollAmount,
-      behavior: "smooth",
-    });
+  const onMouseDown = (e: React.MouseEvent<HTMLDivElement>) => {
+    isDown = true;
+    startX = e.pageX - (rowRef.current?.offsetLeft || 0);
+    scrollLeft = rowRef.current?.scrollLeft || 0;
+  };
+
+  const onMouseLeave = () => { isDown = false; };
+  const onMouseUp = () => { isDown = false; };
+  const onMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (!isDown || !rowRef.current) return;
+    e.preventDefault();
+    const x = e.pageX - rowRef.current.offsetLeft;
+    const walk = (x - startX) * 2; // scroll-fast
+    rowRef.current.scrollLeft = scrollLeft - walk;
   };
 
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative">
       <h3 className="text-xl md:text-2xl font-bold mb-4 text-white">{title}</h3>
-
-      <button
-        onClick={() => scroll("left")}
-        className="absolute left-0 top-1/2 -translate-y-1/2 z-10 p-2 bg-[#141414]/70 rounded-full hover:bg-[#141414]/90 transition"
-      >
-        <FiChevronLeft className="h-6 w-6 text-white" />
-      </button>
-      <button
-        onClick={() => scroll("right")}
-        className="absolute right-0 top-1/2 -translate-y-1/2 z-10 p-2 bg-[#141414]/70 rounded-full hover:bg-[#141414]/90 transition"
-      >
-        <FiChevronRight className="h-6 w-6 text-white" />
-      </button>
 
       <div
         ref={rowRef}
-        className="flex gap-3 overflow-x-hidden overflow-y-hidden scrollbar-hide"
+        className="flex gap-3 overflow-x-scroll scrollbar-hide cursor-grab"
+        onMouseDown={onMouseDown}
+        onMouseLeave={onMouseLeave}
+        onMouseUp={onMouseUp}
+        onMouseMove={onMouseMove}
       >
         {images.map((src, i) => (
-          <Link
+          <div
             key={i}
-            href="/recipes"
-            className="relative flex-shrink-0 w-60 md:w-64 h-40 md:h-56 shadow-lg rounded-md overflow-hidden transform transition duration-300 hover:scale-105 hover:brightness-90 cursor-pointer opacity-60"
+            className="relative flex-shrink-0 w-60 md:w-64 h-40 md:h-56 shadow-lg rounded-md overflow-hidden transform transition duration-300 hover:scale-105 hover:brightness-90 cursor-pointer opacity-80"
           >
             <Image src={src} alt={title} fill className="object-cover" />
-          </Link>
+          </div>
         ))}
       </div>
     </div>
