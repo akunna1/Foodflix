@@ -72,7 +72,7 @@ const categories: Category[] = [
         title: "Noodles with eggs",
         image: "/photos/quick1.jpg",
         ingredients: ["Shin noodles", "2 boiled eggs"],
-        instructions: "Follow the instructions on noodle packet. You can use any other noodles too.",
+        instructions: "Follow the instructions on noodle packet. You can use any other noodles too",
       },
       {
         title: "Raw Fruits",
@@ -170,25 +170,31 @@ const categories: Category[] = [
       {
         title: "Farmer’s Bean Mix",
         image: "/photos/salad2.jpg",
-        ingredients: ["Cucumbers", "Cherry tomatoes", "Spinach", "Baby carrots", "Kidney beans", "Black beans", "Celeries", "Apple thyme vinaigrette", "Feta Cheese"],
+        ingredients: ["Cucumbers", "Cherry tomatoes", "Spinach", "Baby carrots", "Kidney beans", "Black beans", "Celeries", "Apple thyme vinaigrette", "Feta cheese"],
         instructions: "Chop the baby carrots into smaller bits",
       },
       {
         title: "Triple Bean Salad",
         image: "/photos/salad4.jpg",
-        ingredients: ["Chickpeas", "Cherry tomatoes", "Spinach", "Olives", "Kidney beans", "Black beans", "Celeries", "Balsamic vinaigrette", "Feta Cheese"],
+        ingredients: ["Chickpeas", "Cherry tomatoes", "Spinach", "Olives", "Kidney beans", "Black beans", "Celeries", "Balsamic vinaigrette", "Feta cheese"],
         instructions: "Mix all the ingredients in a large bowl",
       },
       {
         title: "Balsamic Berry Bean Salad",
         image: "/photos/salad6.jpg",
-        ingredients: ["Blueberries", "Raisins", "Spinach", "Chopped almonds", "Black beans", "Celeries", "Balsamic vinaigrette", "Feta Cheese"],
+        ingredients: ["Blueberries", "Raisins", "Spinach", "Chopped almonds", "Black beans", "Celeries", "Balsamic vinaigrette", "Feta cheese"],
         instructions: "Defrost the blueberries if needed",
       },
       {
         title: "Raisin Bean Mix",
         image: "/photos/salad3.jpg",
-        ingredients: ["Cucumbers", "Raisins", "Cherry tomatoes", "Spinach", "Kidney beans", "Celeries", "Apple thyme vinaigrette", "Feta Cheese"],
+        ingredients: ["Cucumbers", "Raisins", "Cherry tomatoes", "Spinach", "Kidney beans", "Celeries", "Apple thyme vinaigrette", "Feta cheese"],
+        instructions: "Mix all the ingredients in a large bowl",
+      },
+      {
+        title: "Egg and Pepper Mix",
+        image: "/photos/salad7.jpg",
+        ingredients: ["Bell peppers", "Boiled eggs", "Sliced/cherry tomatoes", "Spinach/arugula", "Apple thyme vinaigrette", "Feta cheese", "Cucumbers (optional)"],
         instructions: "Mix all the ingredients in a large bowl",
       },
     ],
@@ -234,14 +240,20 @@ const categories: Category[] = [
       {
         title: "Corn Chowder",
         image: "/photos/soup1.jpg",
-        ingredients: ["Sweet corn", "Boiled potatoes", "Lettuce basil", "Onion", "Butter", "Shredded chicken", "Seasoning", "Milk"],
+        ingredients: ["Sweet corn", "Boiled potatoes", "Lettuce basil", "Onions", "Butter", "Shredded chicken", "Seasoning", "Milk"],
         instructions: "Melt butter in a pot and sauté the onion until soft. Blend some of the boiled potatoes for creaminess, then add them back with the sautéed onion, the rest of the potatoes, sweet corn, shredded chicken, seasoning, and milk. Simmer gently and finish with fresh lettuce basil",
       },
       {
         title: "Tomato Basil Soup",
         image: "/photos/soup2.jpg",
-        ingredients: ["Ripe tomatoes", "Onion", "Garlic", "Fresh basil leaves", "Olive oil or butter", "Vegetable broth", "Salt", "Black pepper", "Optional: Heavy cream or sugar"],
+        ingredients: ["Tomatoes", "Onions", "Garlic", "Fresh basil leaves", "Olive oil/butter", "Vegetable broth", "Salt", "Black pepper", "Heavy cream (optional)"],
         instructions: "Sauté onion and garlic in olive oil until soft, then add chopped tomatoes and cook until they break down. Pour in broth, season with salt and pepper, and simmer until flavors blend. Blend until smooth, stir in fresh basil, and finish with cream if desired. Eat with grilled cheese sandwich"
+      },
+      {
+        title: "Egusi Soup",
+        image: "/photos/soup3.jpg",
+        ingredients: ["Tomatoes", "Onions", "Garlic", "Palm oil", "Goat/cow meat", "Pumpkin leaves/Spinach", "Crayfish (grounded)", "Seasoning", "Ground egusi seeds", "Bell peppers", "Scotch bonnet"],
+        instructions: "Blend tomatoes, bell peppers, onions, and scotch bonnet into a smooth mix, then fry in palm oil with garlic until fragrant. Stir in ground egusi and cook briefly, then add goat or cow meat, crayfish, seasoning, and water or stock; simmer until thick. Finish with pumpkin leaves or spinach and let it cook a few more minutes before serving"
       },
     ],
   },
