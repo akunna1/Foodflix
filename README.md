@@ -1,4 +1,3 @@
-````markdown
 # Foodflix 🍴
 
 Foodflix is a **Netflix-inspired recipe web app** where I share my personal meal plans and recipes, blending **American, Jamaican, Greek, Nigerian**, and other global flavors 🌎. The app also helps me figure out what to eat 🥗, while giving users a visually engaging and interactive way to explore **delicious food** 😋.
@@ -8,75 +7,75 @@ Check it out live here: [Foodflix](https://foodflix-one.vercel.app) 🚀
 ---
 
 ## 📖 Table of Contents
-- [Demo](#demo)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Pages](#pages)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 
----
-
-## 🎬 Demo
-![Foodflix Screenshot](./screenshot.png)  
-*(Replace with your own screenshot or GIF of the homepage)*
+* [Features](#features)
+* [Tech Stack](#tech-stack)
+* [Pages](#pages)
+* [Getting Started](#getting-started)
+* [Contributing](#contributing)
+* [License](#license)
 
 ---
 
 ## ✨ Features
-- 🍔 **Interactive homepage** with beautiful food previews  
-- 🥗 **Recipes page**: Browse all your favorite dishes  
-- 🍹 **Drink recipes**: Explore beverages and drinks  
-- ℹ️ **About page**: Learn more about Foodflix  
-- 📬 **Contact page**: Send feedback or suggestions  
-- 🎨 Clean, **Netflix-style UI** with smooth hover animations  
-- 📱 Fully responsive for **desktop and mobile**
+
+* **Interactive homepage** with beautiful food previews
+* **Recipes page**: Browse all your favorite dishes
+* **Drink recipes**: Explore beverages and drinks
+* ℹ**About page**: Learn more about Foodflix
+* **Contact page**: Send feedback or suggestions
+* Clean, **Netflix-style UI** with smooth hover animations
+* Fully responsive for **desktop and mobile**
 
 ---
 
 ## 🛠 Tech Stack
-- **Frontend:** Next.js, TypeScript  
-- **Styling:** Tailwind CSS  
-- 💻 Fully responsive and optimized  
+
+* **Frontend:** Next.js, TypeScript
+* **Styling:** Tailwind CSS
+* 💻 Fully responsive and optimized
 
 ---
 
 ## 🗂 Pages
-- **🏠 Homepage:** Featured recipes and interactive slides  
-- **ℹ️ About:** Purpose and vision of Foodflix  
-- **🍴 Recipes:** Explore all food recipes  
-- **🍹 Drink Recipes:** Explore beverages  
-- **📬 Contact:** Get in touch  
+
+* **Homepage:** Featured recipes and interactive slides
+* **ℹAbout:** Purpose and vision of Foodflix
+* **Recipes:** Explore all food recipes
+* **Drink Recipes:** Explore beverages
+* **Contact:** Get in touch
 
 ---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 Make sure you have **Node.js** and **npm** installed.
 
 ### Installation
+
 1. Clone the repo:
-```bash
+
+```
 git clone https://github.com/your-username/foodflix.git
-````
+```
 
 2. Navigate to the project directory:
 
-```bash
+```
 cd foodflix
 ```
 
 3. Install dependencies:
 
-```bash
+```
 npm install
 ```
 
 4. Run the development server:
 
-```bash
+```
 npm run dev
 ```
 
@@ -97,5 +96,3 @@ This project is licensed under the **MIT License**.
 ---
 
 Made with ❤️ using **Next.js**, **TypeScript**, and **Tailwind CSS**
-
-```
