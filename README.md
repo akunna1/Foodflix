@@ -40,7 +40,7 @@ Check it out live here: [Foodflix](https://foodflix-one.vercel.app) 🚀
 ## 🗂 Pages
 
 * **Homepage:** Featured recipes and interactive slides
-* **ℹAbout:** Purpose and vision of Foodflix
+* **About:** Purpose and vision of Foodflix
 * **Recipes:** Explore all food recipes
 * **Drink Recipes:** Explore beverages
 * **Contact:** Get in touch
