@@ -307,6 +307,12 @@ const categories: Category[] = [
         image: "/photos/sand7.jpg",
         ingredients: ["Sausage", "Hot dog bun", "Onions", "Ketchup", "Mayo", "Olive oil"],
         instructions: "Caramalize the onions and mix the ketchup and mayo together to make a sauce to rub on the insides of the bun",
+      }, 
+      {
+        title: "Peanut Butter Banana Bagel",
+        image: "/photos/sand9.jpg",
+        ingredients: ["Bagel", "Peanut butter", "Bananas",],
+        instructions: "You can use sliced bread or any other type of bread",
       },   
     ],
   },
