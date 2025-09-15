@@ -35,7 +35,7 @@ const categories: Category[] = [
     {
         title: "Overnight Oats",
         image: "/photos/dessert2.jpg",
-        ingredients: ["Oats", "Bananas", "Strawberries (or other berries)", "Honey", "Protein powder", "Chai seeds", "Milk (goat, cow or almond)", "Fruit powder (optional)", "Granola/Almonds (optional)"],
+        ingredients: ["Oats", "Bananas", "Strawberries (or other berries)", "Honey", "Protein powder", "Chai seeds", "Milk (goat, cow or almond)", "Fruit powder (optional)", "Granola/almonds (optional)"],
         instructions: "Leave in fridge overnight",
       },
     {
