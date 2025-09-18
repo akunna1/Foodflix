@@ -28,8 +28,8 @@ const categories: Category[] = [
       }, 
       {
         title: "Cocoa Banana Oat Cake",
-        image: "/photos/dessert6.jpg",
-        ingredients: ["2 eggs", "2 bananas", "12 tbsp oat flour", "3 tbsp plain 2% fat yoghurt", "2 tbsp peanut butter", "½ tbsp honey", "6 tbsp sugar", "4 tbsp cocoa powder", "¼ cup almond milk (unsweetened)", "Pinch of salt", "4 tbsp granola"],
+        image: "/photos/dessert6x.jpg",
+        ingredients: ["2 eggs", "2 bananas", "12 tbsp oat flour", "3 tbsp plain 2% fat yoghurt", "2 tbsp peanut butter", "½ tbsp honey", "6 tbsp sugar", "4 tbsp cocoa powder", "¼ cup almond milk (unsweetened)", "Pinch of salt", "4 tbsp granola", "Cream cheese frosting (optional)"],
         instructions: "This recipe is for an 9×5 inches baking pan. Make sure the batter is not too watery",
       },
       {
