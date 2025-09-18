@@ -32,17 +32,17 @@ const categories: Category[] = [
         ingredients: ["2 eggs", "2 bananas", "12 tbsp oat flour", "3 tbsp plain 2% fat yoghurt", "2 tbsp peanut butter", "½ tbsp honey", "6 tbsp sugar", "4 tbsp cocoa powder", "¼ cup almond milk (unsweetened)", "Pinch of salt", "4 tbsp granola", "Cream cheese frosting (optional)"],
         instructions: "This recipe is for an 9×5 inches baking pan. Make sure the batter is not too watery",
       },
-      {
-        title: "Rice Pudding",
-        image: "/photos/dessert8.jpg",
-        ingredients: ["Short-grain rice (unwashed and uncooked)", "Water", "Powdered goat or cow milk", "Granulated sugar", "Vanilla extract or bean paste (optional)", "Toppings",],
-        instructions: "Add the prepared milk and sugar to a pot and cook on medium-high heat until warm. Then add the rice, lower the heat, and stir frequently as it simmers until the mixture becomes thick and creamy. Remove from heat, stir in vanilla and any optional mix-ins like raisins, nuts, or cinnamon, and serve warm or let cool before adding toppings like coconut flakes or honey",
-      },
     {
         title: "Acai Bowl",
         image: "/photos/dessert3.jpg",
         ingredients: ["Medjool dates", "Almond butter", "Spinach", "Unsweetened coconut flakes", "Bananas", "Strawberries", "Blueberries", "Vanilla greek yoghurt", "Chai sees", "Kiwi slices"],
         instructions: "The dates and kiwis do not have to be frozen",
+      },
+     {
+        title: "Rice Pudding",
+        image: "/photos/dessert8.jpg",
+        ingredients: ["Short-grain rice (unwashed and uncooked)", "Water", "Powdered goat or cow milk", "Granulated sugar", "Vanilla extract or bean paste (optional)", "Toppings",],
+        instructions: "Add the prepared milk and sugar to a pot and cook on medium-high heat until warm. Then add the rice, lower the heat, and stir frequently as it simmers until the mixture becomes thick and creamy. Remove from heat, stir in vanilla and any optional mix-ins like raisins, nuts, or cinnamon, and serve warm or let cool before adding toppings like coconut flakes or honey",
       },  
     {
         title: "Berry Bowl",
