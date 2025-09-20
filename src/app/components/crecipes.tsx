@@ -363,7 +363,7 @@ const categories: Category[] = [
         title: "Fried Plantain",
         image: "/photos/side1.jpg",
         ingredients: ["Plantain", "Olive oil",],
-        instructions: "Eat with egg sauce or stew",
+        instructions: "Eat with egg sauce or rice and stew",
       },
     ],
   },
