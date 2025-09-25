@@ -120,6 +120,12 @@ const categories: Category[] = [
         ingredients: ["Onions", "Red bell peppers", "Green bell peppers", "Seasoning", "Butter", "Broccoli", "Olive oil"],
         instructions: "Steam the broccoli first then cook them in butter, fries the bell peppers in oil with the onions and season them. You could add cauliflower to the broccoli ",
       },
+      {
+        title: "Jamaican Cabbage Stir Fry",
+        image: "/photos/stir3.jpg",
+        ingredients: ["Carrots", "Olive oil", "Butter", "Cabbage", "Scotch bonnet", "Bell peppers", "Onions", "Tomatoes", "Seasoning"],
+        instructions: "Slices the carrots, bell peppers and onions as long slices. Add the butter and cabbage last",
+      },
     ],
   },
     {
