@@ -22,7 +22,7 @@ Check it out live here: [Foodflix](https://foodflix-one.vercel.app) 🚀
 * **Interactive homepage** with beautiful food previews
 * **Recipes page**: Browse all your favorite dishes
 * **Drink recipes**: Explore beverages and drinks
-* ℹ**About page**: Learn more about Foodflix
+* **About page**: Learn more about Foodflix
 * **Contact page**: Send feedback or suggestions
 * Clean, **Netflix-style UI** with smooth hover animations
 * Fully responsive for **desktop and mobile**
