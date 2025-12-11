@@ -46,7 +46,7 @@ function FoodRow({ title, images }: { title: string; images: string[] }) {
 
   return (
     <div className="relative">
-      <h3 className="text-xl md:text-2xl font-bold mb-4 text-white text-start">{title}</h3>
+      <h3 className="text-xl md:text-2xl font-bold mb-4 text-white 2xl:text-start">{title}</h3>
 
       <div
         ref={rowRef}
