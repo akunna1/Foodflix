@@ -12,7 +12,7 @@ const categories = [
 
 export default function Slides() {
   return (
-    <section className="space-y-12 px-6 pb-20 bg-[#141414] overflow-hidden w-full">
+    <section className="space-y-12 px-6 pb-20 bg-[#141414] overflow-hidden">
       {categories.map((cat, idx) => (
         <FoodRow key={idx} title={cat.title} images={cat.images} />
       ))}
@@ -46,11 +46,11 @@ function FoodRow({ title, images }: { title: string; images: string[] }) {
 
   return (
     <div className="relative">
-      <h3 className="text-xl md:text-2xl font-bold mb-4 text-white">{title}</h3>
+      <h3 className="text-xl md:text-2xl font-bold mb-4 text-white 2xl:text-center">{title}</h3>
 
       <div
         ref={rowRef}
-        className="flex gap-3 overflow-x-scroll scrollbar-hide cursor-grab"
+        className="flex gap-3 overflow-x-scroll scrollbar-hide cursor-grab  2xl:justify-center"
         onMouseDown={onMouseDown}
         onMouseLeave={onMouseLeave}
         onMouseUp={onMouseUp}
