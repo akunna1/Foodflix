@@ -12,7 +12,7 @@ const categories = [
 
 export default function Slides() {
   return (
-    <section className="space-y-12 px-6 pb-20 bg-[#141414] overflow-hidden 2xl:max-w-[1400px] 2xl:mx-auto">
+    <section className="space-y-12 px-6 pb-20 bg-[#141414] overflow-hidden 2xl:mx-auto">
       {categories.map((cat, idx) => (
         <FoodRow key={idx} title={cat.title} images={cat.images} />
       ))}
