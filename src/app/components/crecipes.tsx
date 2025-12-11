@@ -68,6 +68,12 @@ const categories: Category[] = [
         ingredients: ["Oats", "Bananas", "Strawberries (or other berries)", "Honey", "Protein powder", "Chai seeds", "Milk (goat, cow or almond)", "Fruit powder (optional)", "Granola/almonds (optional)"],
         instructions: "Leave in fridge overnight",
       },
+        {
+        title: "Chia Pudding",
+        image: "/photos/dessert9.jpg",
+        ingredients: ["Chai seeds", "Bananas", "Strawberries", "Honey", "Milk (goat, cow or almond)"],
+        instructions: "Leave in fridge overnight",
+      },
     ],
   },
     {

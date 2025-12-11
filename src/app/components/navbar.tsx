@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
-import { CiMenuKebab } from "react-icons/ci"; //show only on sm. Hide on md, lg, xl, xxl screens
-import { IoIosClose } from "react-icons/io"; //show only on sm. Hide on md, lg, xl, xxl screens
+import { CiMenuKebab } from "react-icons/ci"; //show only on sm. Hide on md, lg, xl, 2xl screens
+import { IoIosClose } from "react-icons/io"; //show only on sm. Hide on md, lg, xl, 2xl screens
 import { useState } from "react";
 
 
