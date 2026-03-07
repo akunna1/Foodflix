@@ -15,7 +15,6 @@ type Category = {
   recipes: Recipe[];
 };
 
-// Data (unchanged)
 const categories: Category[] = [
       {
     title: "Desserts",
@@ -416,6 +415,12 @@ const categories: Category[] = [
         image: "/photos/mis2.jpg",
         ingredients: ["Fries", "Burger buns", "Beef patty", "Lettuce", "Onions", "Tomatoes", "A1 sauce", "Mayo"],
         instructions: "Cook the patty in ovem, brush the A1 sauce on it while cooking and after, and grill the onions/ You can replace the A1 sauce with BBQ sauce",
+      },
+        {
+        title: "Keto Meal 1",
+        image: "/photos/mis3.jpeg",
+        ingredients: ["Steak", "Avocado", "Broccoli", "Butter", "Eggs", "Shredded colby cheese"],
+        instructions: "steam the brocollis then cook it in butter, cook the steak in butter and season it, and cook the eggs in butter on the pan or in the microwave with some shredded cheese",
       },
     ],
   },
