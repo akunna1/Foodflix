@@ -5,8 +5,8 @@ import { useRef } from "react";
 
 const categories = [
   { title: "Desserts", images: ["/photos/dessert1.jpg", "/photos/dessert2.jpg", "/photos/dessert3.jpg", "/photos/dessert7.jpg", "/photos/dessert4.jpg", "/photos/dessert5.jpg"] },
-  { title: "Pasta Dishes", images: ["/photos/pasta1.jpg", "/photos/pasta2.jpg", "/photos/pasta3.jpg", "/photos/pasta4.jpg", "/photos/pasta5.jpg", "/photos/quick1.jpg"] },
-  { title: "Rice Dishes", images: ["/photos/rice1.jpg", "/photos/rice6.jpg", "/photos/rice2.jpg", "/photos/rice3.jpg", "/photos/rice4.jpg", "/photos/rice5.jpg"] },
+  { title: "Pasta Dishes", images: ["/photos/pasta1.jpg", "/photos/pasta2.jpg", "/photos/pasta3.jpg", "/photos/pasta4.jpg", "/photos/pasta5.jpg", "/photos/quick1.jpg", "/photos/pasta6.jpeg"] },
+  { title: "Rice Dishes", images: ["/photos/rice1.jpg", "/photos/rice6.jpg", "/photos/rice2.jpg", "/photos/rice3.jpg", "/photos/rice4.jpg", "/photos/rice5.jpg", "/photos/rice8.jpeg"] },
   { title: "Salads", images: ["/photos/salad1.jpg", "/photos/salad2.jpg", "/photos/salad5.jpg", "/photos/salad7.jpg", "/photos/salad4.jpg", "/photos/salad3.jpg"] },
 ];
 

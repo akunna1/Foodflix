@@ -416,11 +416,17 @@ const categories: Category[] = [
         ingredients: ["Fries", "Burger buns", "Beef patty", "Lettuce", "Onions", "Tomatoes", "A1 sauce", "Mayo"],
         instructions: "Cook the patty in ovem, brush the A1 sauce on it while cooking and after, and grill the onions/ You can replace the A1 sauce with BBQ sauce",
       },
-        {
+      {
         title: "Keto Meal 1",
         image: "/photos/mis3.jpeg",
         ingredients: ["Steak", "Avocado", "Broccoli", "Butter", "Eggs", "Shredded colby cheese"],
         instructions: "steam the brocollis then cook it in butter, cook the steak in butter and season it, and cook the eggs in butter on the pan or in the microwave with some shredded cheese",
+      },
+      {
+        title: "Keto Meal 2",
+        image: "/photos/rice8.jpeg",
+        ingredients: ["Steamed carrots", "Avocado", "Jalapeños", "Spinach", "White rice", "Chicken, Meat, or Turkey", "Tomoatoes", "Bell peppers", "Seasoning", "Olive oil", "San Marcos chipotle sauce", "San Marcos chipotle peppers in adobe sauce", "Scotch bonnet", "Onions"],
+        instructions: "Steam the carrots and serve with the avocado, jalapeños and spinach. Cook the chicken, meat or turkey in the stew made from the tomatoes, bell peppers, onions, seasoning, olive oil, San Marcos chipotle sauce, San Marcos chipotle peppers in adobe sauce and scotch bonnet. Eat with white rice",
       },
     ],
   },
