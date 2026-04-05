@@ -34,7 +34,7 @@ const categories: Category[] = [
     {
         title: "Acai Bowl",
         image: "/photos/dessert3.jpg",
-        ingredients: ["Medjool dates", "Almond butter", "Spinach", "Unsweetened coconut flakes", "Bananas", "Strawberries", "Blueberries", "Vanilla greek yoghurt", "Chai sees", "Kiwi slices"],
+        ingredients: ["Medjool dates", "Almond butter", "Spinach", "Unsweetened coconut flakes", "Bananas", "Strawberries", "Blueberries", "Vanilla greek yoghurt", "Chia sees", "Kiwi slices"],
         instructions: "The dates and kiwis do not have to be frozen",
       },
      {
@@ -58,20 +58,26 @@ const categories: Category[] = [
     {
         title: "Loaded Fiber Bowl",
         image: "/photos/dessert5.jpg",
-        ingredients: ["Chopped almonds", "Chai seeds", "Granola", "Coconut flakes", "Vanilla greek yoghurt", "Raisins/cranberries", "Honey"],
+        ingredients: ["Chopped almonds", "Chia seeds", "Granola", "Coconut flakes", "Vanilla greek yoghurt", "Raisins/cranberries", "Honey"],
         instructions: "Do not overdo it on the crunchy stuff",
       },  
       {
         title: "Overnight Oats",
         image: "/photos/dessert2.jpg",
-        ingredients: ["Oats", "Bananas", "Strawberries (or other berries)", "Honey", "Protein powder", "Chai seeds", "Milk (goat, cow or almond)", "Fruit powder (optional)", "Granola/almonds (optional)"],
+        ingredients: ["Oats", "Bananas", "Strawberries (or other berries)", "Honey", "Protein powder", "Chia seeds", "Milk (goat, cow or almond)", "Fruit powder (optional)", "Granola/almonds (optional)"],
         instructions: "Leave in fridge overnight",
       },
-        {
+      {
         title: "Chia Pudding",
         image: "/photos/dessert9.jpg",
-        ingredients: ["Chai seeds", "Bananas", "Strawberries", "Honey", "Milk (goat, cow or almond)"],
+        ingredients: ["Chia seeds", "Bananas", "Strawberries", "Honey", "Milk (goat, cow or almond)"],
         instructions: "Leave in fridge overnight",
+      },
+      {
+        title: "Homilies Cake",
+        image: "/photos/dessert10.jpeg",
+        ingredients: ["Pineapple tidbits", "Crushed pineapples", "Canned coconut milk", "Cake Flour", "Sugar", "Vanilla extract", "Baking powder", "Eggs", "Sweet cream butter", "Butter", "Nutmeg"],
+        instructions: "Mixed everything until cream texture is achieved. Bake in a 9×5 inches pan at 350°F for 30-40 minutes",
       },
     ],
   },
@@ -370,6 +376,18 @@ const categories: Category[] = [
         image: "/photos/pasta5.jpg",
         ingredients: ["Tomatoes", "Peas", "Broccoli", "Chicken wings/thighs", "Spaghetti", "Bell peppers", "Onions", "Olive oil", "San Marcos chipotle sauce/salsa", "San Marcos chipotle peppers in adobe sauce", "Seasoning"],
         instructions: "Steam the broccolis first before adding it to the cooked jollof spaghetti",
+      },
+      {
+        title: "Shrimp Alfredo Pasta with Broccoli",
+        image: "/photos/pasta7.jpeg",
+        ingredients: ["Shrimp", "Alfredo sauce", "Fettuccine Spaghetti", "Seasoning (Garlic, Shrimp, etc.)", "Broccoli", "Butter"],
+        instructions: "Cook the shrimp in butter with seasoning, add the Alfredo sauce, toss with cooked spaghetti, the add steamed buttered broccoli",
+      },
+      {
+        title: "Shrimp Alfredo Pasta with Broccoli and Blended Pepper",
+        image: "/photos/pasta6.jpeg",
+        ingredients: ["Shrimp", "Alfredo sauce", "Sans Marcos Pepper in Adobe Sauce", "Fettuccine Spaghetti", "Seasoning (Garlic, Shrimp, etc.)", "Broccoli", "Butter"],
+        instructions: "Cook the shrimp in butter with seasoning, add the Alfredo sauce and the blended pepper, toss with cooked spaghetti, the add steamed buttered broccoli",
       },
     ],
   },
