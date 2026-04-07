@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 import { useRef } from "react";
-
+ 
+// Defining the types for recipes and categories
 type Recipe = {
   title: string;
   image: string;
@@ -10,6 +11,7 @@ type Recipe = {
   instructions: string;
 };
 
+// Each category has a title and an array of recipes
 type Category = {
   title: string;
   recipes: Recipe[];
