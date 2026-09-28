@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import "./globals.css";
 import ClientLayout from "./clientLayout";
+import "./globals.css";
 
 // Global setup + Metadata + HTML/body structure => Layout.tsx
 // Font was moved to global.css
