@@ -76,10 +76,10 @@ const categories: Category[] = [
         instructions: "Leave in fridge overnight",
       },
       {
-        title: "Homilies Cake",
+        title: "Homilies Cupcakes",
         image: "/photos/dessert10.jpeg",
-        ingredients: ["Pineapple tidbits", "Crushed pineapples", "Canned coconut milk", "Cake Flour", "Sugar", "Vanilla extract", "Baking powder", "Eggs", "Sweet cream butter", "Butter", "Nutmeg"],
-        instructions: "Mixed everything until cream texture is achieved. Bake in a 9×5 inches pan at 350°F for 30-40 minutes",
+        ingredients: ["Jackfruit", "Evaporated milk", "Nido milk", "Cake Flour", "Sugar", "Vanilla extract", "Baking powder", "Eggs", "Butter", "Nutmeg"],
+        instructions: "Blend the jackfruit in the blender until mushy, not liquidy.Mixed everything until cream texture is achieved. Bake in oven at 350°F.",
       },
     ],
   },

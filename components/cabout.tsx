@@ -2,9 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
-const Cabout = () => {
+export default function Ccontact() {
   return (
     <main className="bg-[#141414] text-gray-200 min-h-screen flex flex-col items-center px-8 py-24">
       <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-8 text-center">
@@ -64,6 +63,4 @@ const Cabout = () => {
       </div>
     </main>
   );
-};
-
-export default Cabout;
+}

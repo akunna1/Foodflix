@@ -1,31 +1,27 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+// @ts-expect-error Next.js handles this global stylesheet import at build time.
 import "./globals.css";
+import ClientLayout from "./clientLayout";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// Global setup + Metadata + HTML/body structure => Layout.tsx
+// Font was moved to global.css
 
 export const metadata: Metadata = {
   title: "Foodflix",
-  description: "Created by Akunna Onyekachi",
+  description: "Foodflix is a personal recipe app that helps you discover and keep track of meal ideas, recipes, and drinks. Explore flavors, try new combinations, and make cooking fun.",
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`} suppressHydrationWarning={true}>
-        {children}
+      <body className="antialiased min-h-screen" suppressHydrationWarning={true}> 
+          <ClientLayout>
+            {children}
+          </ClientLayout>
       </body>
     </html>
   );

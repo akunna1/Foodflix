@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { FiArrowDown } from "react-icons/fi";
 import Link from "next/link";
 

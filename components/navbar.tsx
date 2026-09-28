@@ -4,7 +4,6 @@ import { CiMenuKebab } from "react-icons/ci"; //show only on sm, hide on md, lg,
 import { IoIosClose } from "react-icons/io"; //show only on sm, hide on md, lg, xl, 2xl screens
 import { useState } from "react";
 
-
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 

@@ -1,10 +1,10 @@
 "use client";
 
-import Navbar from "@/app/components/navbar";
-import Welcome from "@/app/components/welcome";
-import Foodpreview from "@/app/components/foodpreview";
-import Slides from "@/app/components/slides";
-import Footer from "@/app/components/footer";
+import Navbar from "@/components/navbar";
+import Welcome from "@/components/welcome";
+import Foodpreview from "@/components/foodpreview";
+import Slides from "@/components/slides";
+import Footer from "@/components/footer";
 
 export default function Page() {
   return (
